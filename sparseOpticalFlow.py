@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('./externals/slowTraffic.mp4')
+cap = cv2.VideoCapture('./slowTraffic.mp4')
 
 ST_parameters = dict( maxCorners = 50,
                        qualityLevel = 0.2,
